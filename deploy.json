@@ -1,0 +1,13 @@
+{
+    "requirements": {
+        "one":[{"op":"node_attr_match","kwargs":{"index":["node_name",{"name":"runtime-0"}]},"type":"+"}],
+        "avgOne":[{"op":"node_attr_match","kwargs":{"index":["node_name",{"name":"runtime-1"}]},"type":"+"}],
+        "two":[{"op":"node_attr_match","kwargs":{"index":["node_name",{"name":"runtime-2"}]},"type":"+"}],
+        "avgTwo":[{"op":"node_attr_match","kwargs":{"index":["node_name",{"name":"runtime-3"}]},"type":"+"}],
+        "three":[{"op":"node_attr_match","kwargs":{"index":["node_name",{"name":"runtime-4"}]},"type":"+"}],
+        "avgThree":[{"op":"node_attr_match","kwargs":{"index":["node_name",{"name":"runtime-5"}]},"type":"+"}],
+        "avgAll":[{"op":"node_attr_match","kwargs":{"index":["node_name",{"name":"runtime-6"}]},"type":"+"}],
+        "tree":[{"op":"node_attr_match","kwargs":{"index":["node_name",{"name":"runtime-7"}]},"type":"+"}],
+        "out":[{"op":"node_attr_match","kwargs":{"index":["node_name",{"name":"runtime-8"}]},"type":"+"}]
+    }
+}

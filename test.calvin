@@ -1,0 +1,19 @@
+one : Input.Emitter()
+avgOne : Math.AverageActor()
+two : Input.Emitter()
+avgTwo : Math.AverageActor()
+three : Input.Emitter()
+avgThree : Math.AverageActor()
+avgAll: Math.AverageMultipleIn()
+tree : Input.BuildTree()
+out : io.Print()
+
+one.data > avgOne.temp1
+avgOne.result > avgAll.tem1
+two.data > avgTwo.temp1
+avgTwo.result > avgAll.tem2
+three.data > avgThree.temp1
+avgThree.result > avgAll.tem3
+avgAll.ip > tree.input
+tree.output > out.token
+
